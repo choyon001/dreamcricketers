@@ -3,19 +3,26 @@ import './App.css'
 import Banner from './components/Banner/Banner'
 import Navbar from './components/Navbar/Navbar'
 import { useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+
 
 function App() {
+  
   const [usercoin, setUserCoin] = useState(0);
   const claimcredit = ()=>{
     setUserCoin(usercoin+5000000);
-    alert(`Claimed 5000000 coins `);
+    toast.success('You claimed 5,000,000 coins!', {
+      position: "top-center",
+      autoClose: 3000, 
+    });
   }
 
   return (
     <>
       
       <Navbar usercoin = {usercoin}></Navbar>
-      <Banner claimcredit = {claimcredit}></Banner>
+      <ToastContainer />
+      <Banner claimcredit = {claimcredit} ></Banner>
     </>
   )
 }

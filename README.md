@@ -10,3 +10,4 @@ here is sections like Home,Fixture,Teams,Schedules and a coin credit where you c
 here is a banner where you can see the banner image and some title about the page and also a button for claiming Coin Free .
 when you click on the button you will get a alert message that you have claimed 5000000 coins .
 
+- Added react-toastify for toast notifications.
