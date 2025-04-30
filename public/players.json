@@ -1,0 +1,92 @@
+[
+    {
+      "player_id": 1,
+      "player_img": "https://iili.io/3XeSamF.jpg",
+      "player_name": "Virat Kohli",
+      "player_country": "India",
+      "player_category": "Batsman",
+      "batting_style": "Right-hand",
+      "player_price": 1500000
+    },
+    {
+      "player_id": 2,
+      "player_img": "https://iili.io/3XeiicG.jpg",
+      "player_name": "Ben Stokes",
+      "player_country": "England",
+      "player_category": "Allrounder",
+      "batting_style": "Left-hand",
+      "player_price": 1800000
+    },
+    {
+      "player_id": 3,
+      "player_img": "https://iili.io/3XeQXM7.jpg",
+      "player_name": "Babar Azam",
+      "player_country": "Pakistan",
+      "player_category": "Batsman",
+      "batting_style": "Right-hand",
+      "player_price": 1400000
+    },
+    {
+      "player_id": 4,
+      "player_img": "https://iili.io/3Xet2qP.jpg",
+      "player_name": "Mitchell Starc",
+      "player_country": "Australia",
+      "player_category": "Bowler",
+      "batting_style": "Left-hand",
+      "player_price": 1600000
+    },
+    {
+      "player_id": 5,
+      "player_img": "https://iili.io/3XebdUF.jpg",
+      "player_name": "Rashid Khan",
+      "player_country": "Afghanistan",
+      "player_category": "Bowler",
+      "batting_style": "Right-hand",
+      "player_price": 1200000
+    },
+    {
+      "player_id": 6,
+      "player_img": "https://iili.io/3XepwKB.jpg",
+      "player_name": "Kane Williamson",
+      "player_country": "New Zealand",
+      "player_category": "Batsman",
+      "batting_style": "Right-hand",
+      "player_price": 1350000
+    },
+    {
+      "player_id": 7,
+      "player_img": "https://iili.io/3Xk9lTu.jpg",
+      "player_name": "Shakib Al Hasan",
+      "player_country": "Bangladesh",
+      "player_category": "Allrounder",
+      "batting_style": "Left-hand",
+      "player_price": 1100000
+    },
+    {
+      "player_id": 8,
+      "player_img": "https://iili.io/3XkJ5be.jpg",
+      "player_name": "Quinton de Kock",
+      "player_country": "South Africa",
+      "player_category": "Batsman",
+      "batting_style": "Left-hand",
+      "player_price": 1250000
+    },
+    {
+      "player_id": 9,
+      "player_img": "https://iili.io/3Xk23tn.jpg",
+      "player_name": "Jasprit Bumrah",
+      "player_country": "India",
+      "player_category": "Bowler",
+      "batting_style": "Right-hand",
+      "player_price": 1450000
+    },
+    {
+      "player_id": 10,
+      "player_img": "https://iili.io/3XkFuEb.jpg",
+      "player_name": "David Warner",
+      "player_country": "Australia",
+      "player_category": "Batsman",
+      "batting_style": "Left-hand",
+      "player_price": 1550000
+    }
+]

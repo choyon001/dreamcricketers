@@ -1,6 +1,7 @@
 
 import './App.css'
 import Banner from './components/Banner/Banner'
+import Mainsection from './components/Mainsection/Mainsection';
 import Navbar from './components/Navbar/Navbar'
 import { useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
@@ -17,12 +18,14 @@ function App() {
     });
   }
 
+  
   return (
     <>
       
       <Navbar usercoin = {usercoin}></Navbar>
       <ToastContainer />
       <Banner claimcredit = {claimcredit} ></Banner>
+      <Mainsection ></Mainsection>
     </>
   )
 }
