@@ -1,8 +1,15 @@
+import SelectedPlayer from "../SelectedPlayer/SelectedPlayer";
 
-export default function Selected() {
+
+export default function Selected({selectedPlayers}) {
+
   return (
     <div>
-        <h1 className="text-4xl">Selected</h1>
+      {
+        selectedPlayers.map((player)=>(
+          <SelectedPlayer key={player.player_id} player={player} />
+        ))
+      }
     </div>
   )
 }

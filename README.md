@@ -24,3 +24,9 @@ This section displays a list of available players that you can add to your team.
 - **Batting Style**
 - **Player Price**
 - **Add Player Button**
+
+
+# Selected Players
+
+This section shows the players you have selected for your team. 
+

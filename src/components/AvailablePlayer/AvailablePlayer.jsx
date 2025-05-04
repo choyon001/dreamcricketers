@@ -1,6 +1,6 @@
 import { FaFlag } from "react-icons/fa";
 
-export default function AvailablePlayer({player}) {
+export default function AvailablePlayer({player,handleSelectPlayer}) {
     const {player_img,player_name,player_country,player_category,batting_style,player_price} = player;
     
 return (
@@ -34,7 +34,7 @@ return (
                 </div>
             </div>
 
-            <button className="w-full bg-blue-500 text-white text-sm font-medium py-2 rounded-lg hover:bg-blue-600 transition">
+            <button className="w-full bg-blue-500 text-white text-sm font-medium py-2 rounded-lg hover:bg-blue-600 transition" onClick={() => handleSelectPlayer(player)}>
                 Choose Player
             </button>
         </div>
