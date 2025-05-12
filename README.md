@@ -45,3 +45,12 @@ Each selected player details:
 You can remove a player from your team by clicking the "Remove Player" button
 
 
+# Footer
+
+The footer section includes:
+
+- **Contact Information**
+- **Copyright**
+- **Quick Links**
+
+
