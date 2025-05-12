@@ -5,6 +5,7 @@ import Mainsection from './components/Mainsection/Mainsection';
 import Navbar from './components/Navbar/Navbar'
 import { useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -25,7 +26,8 @@ function App() {
       <Navbar usercoin = {usercoin}></Navbar>
       <ToastContainer />
       <Banner claimcredit = {claimcredit} ></Banner>
-      <Mainsection ></Mainsection>
+      <Mainsection usercoin = {usercoin} setUserCoin = {setUserCoin}></Mainsection>
+      <Footer></Footer>
     </>
   )
 }

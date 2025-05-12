@@ -26,7 +26,22 @@ This section displays a list of available players that you can add to your team.
 - **Add Player Button**
 
 
+
 # Selected Players
 
 This section shows the players you have selected for your team. 
+
+
+Each selected player details:
+
+- **Player Image**
+- **Player Name**
+- **Player Country**
+- **Player Category**
+- **Batting Style**
+- **Player Price**
+- **Remove Player Button**
+
+You can remove a player from your team by clicking the "Remove Player" button
+
 
